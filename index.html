@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+  <div class="box">
+    <div class="texts">
+      <h1>Stay updated!</h1>
+      <p id="text">Join 60,000+ product managers receiving monthly updates on:</p>
+      <div class="classes">
+      <img src="assets/images/icon-list.svg" alt="" class="icon">
+      <p>Product discovery and building what matters</p>
+      </div>
+      <div class="classes">
+      <img src="assets/images/icon-list.svg" alt="" class="icon">
+      <p>Measuring to ensure updates are a success</p>
+      </div>
+      <div class="classes">
+      <img src="assets/images/icon-list.svg" alt="" class="icon">
+      <p>And much more!</p>
+      </div>
+      <div class="inputs">
+      <label for="email" id="email">Email address <span id="valid-email"></span></label>
+      <input id="email-input" name="email" type="email" placeholder="email@company.com" class="error-" >
+    </div>
+      <button id="btn">Subscribe to monthly newsletter</button>
+    </div>
+    <div class="image-mobile"> <img src="assets/images/illustration-sign-up-mobile.svg" alt=""></div>
+      <img src="assets/images/illustration-sign-up-desktop.svg" alt="" id="image">
+  </div>
+  <div class="subscrib " style="display: none;">
+    <img src="assets/images/icon-list.svg" alt="" class="image-2">
+    <h1>Thanks for subscribing!</h1>
+    <p>A confirmation email has been sent to <span id="email-user"></span>
+      Please open it and click the button inside to confirm your subscription.</p>
+      <button id="btn-2">Dismiss message</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
