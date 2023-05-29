@@ -23,4 +23,6 @@ dismiss.addEventListener('click',()=>{
   successCard.style.display = 'none' ;
   succesSign.style.display = 'flex';
   emailInput.value = '';
+  validEmail.textContent = '';
+  document.querySelector(".error-").classList.remove("error");
 })
